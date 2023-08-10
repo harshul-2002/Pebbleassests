@@ -2,15 +2,20 @@
  margin: 0;
  padding: 0;
 
-  color: aliceblue;
+  color: white;
+}
+
+body{
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 
 .container {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: grid;
   grid-template-columns: 0.3fr 1.4fr 0.3fr;
-  grid-template-rows: 0.3fr 1.4fr 0.3fr;
+  grid-template-rows: 0.3fr 1.4fr 0.4fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -18,8 +23,7 @@
     "sidebar main sidebar2"
     "sidebar footer sidebar2";
 
-  background: rgb(131,58,180);
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+ 
 }
 
 .sidebar2 {
@@ -46,7 +50,7 @@
   grid-area: footer;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
 
   .container {
     display: grid;
