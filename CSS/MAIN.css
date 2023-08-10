@@ -199,3 +199,14 @@
   .inside-div-2 { grid-area: inside-div-2; }
   .inside-div-3 { grid-area: inside-div-3; }
 }
+
+
+@media screen and (max-width: 1000px){
+  .footer {
+  margin-top: 2.5vh;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   }
+}
+
