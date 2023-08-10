@@ -7,7 +7,7 @@
 
 .container {
   width: 100vw;
-  height: 99.6vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 0.3fr 1.4fr 0.3fr;
   grid-template-rows: 0.3fr 1.4fr 0.3fr;
