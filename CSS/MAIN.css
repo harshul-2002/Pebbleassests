@@ -121,6 +121,7 @@
 .footer {
   display: flex;
   justify-content: end;
+   align-items:flex-end;
 }
 .footer p {
   font-size: 1.8vh;
